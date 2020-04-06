@@ -29,14 +29,28 @@
     <!--jquery Ui -->
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+    <!--footer style-->
+    <style>
+        .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
+        }
+
+        .footer {
+            background-color: #b19a9a;
+        }
+    </style>
+    <!-- Custom styles for this template
+    <link href="sticky-footer.css" rel="stylesheet">-->
 
 </head>
-
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
     <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -49,8 +63,7 @@
                 <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -70,5 +83,11 @@
         </form>
     </div>
 </nav>
+    <footer class="footer mt-auto py-3">
+        <div class="conteiner">
+            <h1 class="mt-5">Sticky footer</h1>
+            <p>This is my footer</p>
+        </div>
+    </footer>
 </body>
 </html>
