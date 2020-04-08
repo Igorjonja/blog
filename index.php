@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Tab name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -31,15 +33,17 @@
 
     <!--footer style-->
     <style>
+        .myClass{background: burlywood;}
         .container {
             width: auto;
             max-width: 680px;
-            padding: 0 15px;
+            padding: 5px 15px;
         }
 
         .footer {
             background-color: #b19a9a;
         }
+
     </style>
     <!-- Custom styles for this template
     <link href="sticky-footer.css" rel="stylesheet">-->
@@ -83,10 +87,24 @@
         </form>
     </div>
 </nav>
+
+    <div class="myClass">
+        <p>tekst kontenrt</p>
+    </div>
+<!--Content-->
+<div class="container">
+    <h1>Content area</h1>
+</div>
+
+
+
     <footer class="footer mt-auto py-3">
         <div class="conteiner">
-            <h1 class="mt-5">Sticky footer</h1>
+            <span class="mt-5">Sticky footer</span>
             <p>This is my footer</p>
+        </div>
+
+
         </div>
     </footer>
 </body>
