@@ -5,6 +5,9 @@
 
 $dbc = mysqli_connect('localhost','dev','Definition1711','atomcms') OR die('Could not connect because:'.mysqli_connect_error());
 
+#Functions
+include('functions/data.php');
+
 $site_title = 'AtomCMC 2.0';
 
 if(isset($_GET['page'])) {
@@ -19,9 +22,7 @@ if(isset($_GET['page'])) {
 
 
 #Page Setup
-$q = "SELECT * FROM pages WHERE id = $pageid";
-$r = mysqli_query($dbc, $q);
+$page = data_page($dbc ,$pageid);
 
-$page = mysqli_fetch_assoc($r);
 
 ?>

@@ -1,4 +1,4 @@
-
+<?php
 
 function data_page($dbc,$id) {
 
